@@ -35,7 +35,7 @@ Você pode instalar todas as dependências do projeto utilizando o arquivo `requ
 Primeiro, clone o repositório para sua máquina local:
 
 ```bash
-git clone 
+git clone https://github.com/ludmilaaysha/listai4.0.git
 cd lista_exercicios
 ```
 
@@ -87,7 +87,7 @@ O chat_id aparecerá na resposta JSON, e você poderá usá-lo para enviar as me
 TELEGRAM_TOKEN=seu_token_aqui
 CHAT_ID=seu_chat_id_aqui
 ```
-    - Substituia `seu_token_aqui` e `seu_chat_id_aqui` pelos respectivos do seu chat com o bot
+- Substitua `seu_token_aqui` e `seu_chat_id_aqui` pelos respectivos do seu chat com o bot
 
 5. Rodando o Código
 Agora, execute o arquivo principal main.py para iniciar o menu interativo e utilizar as funcionalidades:
@@ -96,7 +96,7 @@ Agora, execute o arquivo principal main.py para iniciar o menu interativo e util
 python main.py
 ```
 
-6. Testando Dados Diferentes
+### 5. Testando Dados Diferentes
 Para testar dados diferentes, você pode alterar o arquivo CSV que o projeto utiliza. O caminho do arquivo está configurado no código da seguinte forma:
 
 ```python
